@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #232222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    
+    width: 75%;
+    max-width: 800px;
+    height: 18vh;
+    margin: 300px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+   
+.hours{
+    height:80%;
+    width: 75%;
+    background-color: #313132;
+    margin: 20px;
+    padding-top: 80px;
+    font-size:80px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 6px  rgb(82, 80, 80);
+}
+.hours span{
+   display: inline-block;
+  
+}
+.dots{
+    display: flex;
+    flex-direction: column;
+}
+#dot{
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    margin: 8px;
+}
+.dateS{
+    display: flex;
+    margin: auto;
+    width: 75%;
+    max-width: 800px;
+    color:white ;
+    justify-content: center;
+}
+#date{
+    font-size: 30px;
+}
